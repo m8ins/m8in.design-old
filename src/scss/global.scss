@@ -14,7 +14,8 @@
 /**
  * GLOBAL STYLES
  */
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -53,6 +54,7 @@ hr {
 @import 'components/button';
 @import 'components/heading-permalink';
 @import 'components/intro';
+@import 'components/hero';
 @import 'components/nav';
 @import 'components/pagination';
 @import 'components/post';

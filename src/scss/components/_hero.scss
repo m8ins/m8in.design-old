@@ -1,10 +1,14 @@
-.intro {
+.hero {
   background: linear-gradient(180deg, #a04ad9 0%, #2c2559 100%);
   color: var(--color-theme-highlight);
+  height: 40vh;
+  display: flex;
+  align-items: center;
 
   &__summary {
     --flow-space: #{get-size(500)};
     font-size: get-size(600);
+    margin-left: -30%;
 
     a {
       color: currentColor;
@@ -17,16 +21,8 @@
 
   &__heading {
     max-width: 40ch;
-    @include apply-utility('font', 'serif');
-    font-size: get-size(900);
-
-    &--compact {
-      max-width: 20ch;
-    }
-  }
-
-  .intro--hero & {
     @include apply-utility('font', 'marker');
     font-size: get-size(900);
+    margin-left: -30%;
   }
 }

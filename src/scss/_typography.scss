@@ -9,6 +9,9 @@
     url('/fonts/lora-v13-latin-700.woff') format('woff');
 }
 
+/* Permanent Marker – Hero Heading*/
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);

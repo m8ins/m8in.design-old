@@ -2,8 +2,8 @@
 {% set pageType = 'Homepage' %}
 
 {# Intro content #}
-{% set introHeading = title %}
-{% set introSummary %}
+{% set heroHeading = title %}
+{% set heroSummary %}
   {{ content | safe }}
 {% endset %}
 
@@ -19,7 +19,7 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/hero.njk" %}
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
