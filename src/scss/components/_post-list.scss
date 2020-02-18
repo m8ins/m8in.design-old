@@ -1,6 +1,16 @@
 .post-list {
+  transform: translateY(-30%);
+
   &__item {
     --flow-space: #{get-size(700)};
+  }
+
+  & .inner-wrapper {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
   }
 
   &__link {

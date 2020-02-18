@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Hi! I'm Martin
+title: Hi✌️ I'm Martin
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
