@@ -1,6 +1,5 @@
 .intro {
-  background: linear-gradient(180deg, #a04ad9 0%, #2c2559 100%);
-  color: var(--color-theme-highlight);
+  color: var(--color-theme-primary);
 
   &__summary {
     --flow-space: #{get-size(500)};
@@ -26,7 +25,7 @@
   }
 
   .intro--hero & {
-    @include apply-utility('font', 'marker');
+    @include apply-utility('font', 'serif');
     font-size: get-size(900);
   }
 }

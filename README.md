@@ -2,9 +2,7 @@
 
 Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
 
-Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)][deploy-to-netlify]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/61c7ef3f-768e-492b-902f-6dd59760605f/deploy-status)](https://app.netlify.com/sites/jovial-borg-da846c/deploys)
 
 <img src="https://hankchizljaw.imgix.net/hylia-github.jpg?auto=format&q=60" width="550" />
 
@@ -33,7 +31,7 @@ Hylia version 0.5.1 features:
 📄 Documentation site  
 💅 Proper Sass documentation  
 ✍️ Proper CMS documentation  
-🖼 A facility for you to be able to add your logo / branding  
+🖼 A facility for you to be able to add your logo / branding
 
 ---
 

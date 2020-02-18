@@ -9,8 +9,7 @@
     url('/fonts/lora-v13-latin-700.woff') format('woff');
 }
 
-/* Permanent Marker – Hero Heading*/
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:500,600,700,900&display=swap');
 
 body {
   // Strip the unit off the size ratio to generate a line height
@@ -50,4 +49,11 @@ h3 {
   h3 {
     font-size: get-size(700);
   }
+}
+
+kbd {
+  padding: 0.2rem;
+  font-size: get-size(100);
+  border: 2px solid var(--color-theme-primary);
+  box-shadow: 1px 1px var(--color-theme-primary), 2px 2px var(--color-theme-primary);
 }
