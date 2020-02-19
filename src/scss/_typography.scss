@@ -53,7 +53,8 @@ h3 {
 
 kbd {
   padding: 0.2rem;
-  font-size: get-size(100);
+  font-size: 0.8em;
   border: 2px solid var(--color-theme-primary);
-  box-shadow: 1px 1px var(--color-theme-primary), 2px 2px var(--color-theme-primary);
+  box-shadow: 1px 1px currentColor, 2px 2px currentColor;
+  border-radius: 0.2rem;
 }
