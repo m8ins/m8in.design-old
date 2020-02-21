@@ -1,6 +1,7 @@
 .post {
   &__body {
     --flow-space: #{get-size(800)};
+    max-width: 60ch;
 
     /**
      * Generic HTML styles 
@@ -8,6 +9,49 @@
     h2 + *,
     h3 + * {
       --flow-space: #{get-size(500)};
+    }
+
+    table {
+      width: 60vw;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      white-space: normal;
+    }
+
+    th {
+      font-size: 0.8em;
+      text-align: left;
+    }
+
+    td {
+      min-width: 20ch;
+      max-width: 40ch;
+      vertical-align: top;
+      padding-right: 4rem;
+    }
+
+    tbody > * + * {
+      margin-top: 1rem;
+    }
+
+    .full-width {
+      width: 99vw;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .data-table {
+      border-collapse: collapse;
+      transition: 0.2s ease-out;
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+      &td {
+        padding-right: 2rem;
+        border-color: currentColor;
+      }
     }
 
     h2,
