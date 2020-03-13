@@ -1,5 +1,8 @@
 .intro {
   color: var(--color-theme-primary);
+  --magic-number: 0.09719; /* tan(11°)/2 */
+  --content-width: 100vw;
+  --skew-padding: calc(var(--content-width) * var(--magic-number));
 
   &__summary {
     --flow-space: #{get-size(500)};

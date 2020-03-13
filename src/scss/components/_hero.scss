@@ -1,10 +1,10 @@
 .hero {
-  background: linear-gradient(
-    180deg,
-    var(--color-theme-primary) 0%,
-    var(--color-theme-primary-shade) 100%
-  );
-  color: var(--color-theme-highlight);
+  // background: linear-gradient(
+  //   180deg,
+  //   var(--color-theme-primary) 0%,
+  //   var(--color-theme-primary-shade) 100%
+  // );
+  color: var(--color-theme-primary);
   min-height: 60ex;
   display: flex;
   align-items: center;

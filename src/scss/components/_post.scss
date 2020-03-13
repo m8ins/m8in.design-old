@@ -11,11 +11,22 @@
       --flow-space: #{get-size(500)};
     }
 
-    table {
-      width: 60vw;
-      margin-left: 50%;
-      transform: translateX(-50%);
+    .table {
       white-space: normal;
+      width: 100%;
+      min-width: 100%;
+      border-spacing: 0;
+      border-collapse: collapse;
+      border: 1px solid var(--color-theme-mid);
+      border-radius: 5px;
+      word-break: break-word;
+    }
+
+    .reel {
+      // max-width: 60ch;
+      overflow-x: auto;
+      scrollbar-color: var(--color-theme-light) var(--color-theme-dark);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15) inset;
     }
 
     th {
@@ -24,10 +35,17 @@
     }
 
     td {
-      min-width: 20ch;
-      max-width: 40ch;
+      white-space: normal;
+      width: 100%;
+      min-width: 100%;
+      border-spacing: 0;
+      border-collapse: collapse;
+      border: 1px solid var(--color-theme-mid);
+      border-radius: 5px;
+      word-break: break-word;
+      min-width: 4rem;
       vertical-align: top;
-      padding-right: 4rem;
+      padding-right: 1rem;
     }
 
     tbody > * + * {

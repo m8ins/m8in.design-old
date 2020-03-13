@@ -26,7 +26,7 @@
     "cross-env": "^7.0.0",
     "make-dir-cli": "^2.0.0",
     "prettier": "^1.18.2",
-    "rollup": "^1.16.1"
+    "rollup": "^2.0.5"
   },
   "scripts": {
     "sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",

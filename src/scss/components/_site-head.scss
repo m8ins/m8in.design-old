@@ -1,7 +1,13 @@
 .site-head {
+  background-color: var(--color-theme-primary);
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  border-bottom: 1px solid var(--color-stroke);
   &__site-name {
     font-weight: 700;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-theme-highlight);
+  }
+  & nav {
+    color: var(--color-bg);
   }
 }
