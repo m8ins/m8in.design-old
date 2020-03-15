@@ -1,0 +1,28 @@
+.card {
+  display: block;
+  text-decoration: none;
+  color: var(--color-theme-primary);
+  background-color: var(--color-bg);
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: var(--s0);
+  &:hover {
+    transition: 0.2s ease-in-out;
+    transform: translateY(-2%);
+  }
+  &__heading {
+    // @include apply-utility('font', 'base');
+    font-size: get-size(700);
+    // color: var(--color-text);
+    line-height: 1.1;
+  }
+  &__description {
+    font-size: get-size(500);
+    margin-top: var(--s0);
+    font-style: italic;
+  }
+  // &__date {
+  //   font-size: get-size(400);
+  //   color: var(--color-text-glare);
+  // }
+}

@@ -1,5 +1,6 @@
 ---
 title: A post with a table
+description: Ein Post wo ich mit Tables rumspiele
 date: '2020-02-20'
 tags:
   - demo-content

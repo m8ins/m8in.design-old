@@ -1,8 +1,9 @@
 .post-list {
-  transform: translateY(-30%);
-
   &__item {
     --flow-space: #{get-size(700)};
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
   }
 
   & .inner-wrapper {

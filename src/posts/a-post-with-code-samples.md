@@ -1,5 +1,6 @@
 ---
 title: A post with code samples
+description: A post with code samples to show how this looks.
 date: '2019-06-18'
 tags:
   - demo-content
