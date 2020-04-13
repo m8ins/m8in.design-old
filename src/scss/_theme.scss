@@ -6,7 +6,7 @@
 
   // Set theme aliases
   --color-mode: 'light';
-  --color-bg: #faebd7;
+  --color-bg: #{get-color('bg')};
   --color-bg-glare: #{get-color('light')};
   --color-text: #{get-color('dark')};
   --color-text-glare: #{get-color('slate')};
@@ -38,7 +38,7 @@
 }
 
 body {
-  color: var(--color-text);
+  color: var(--color-text-01);
   background-color: white;
 }
 

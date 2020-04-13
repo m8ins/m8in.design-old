@@ -22,6 +22,11 @@
 
       @include apply-utility('weight', 'mid');
 
+      &:hover {
+        background: none;
+        text-decoration: underline;
+      }
+
       &:not(:hover) {
         text-decoration: none;
       }

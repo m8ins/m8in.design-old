@@ -1,6 +1,7 @@
 ---
 title: A post with figures and video
 date: '2019-06-18'
+previewImage: '/images/demo-image-1.jpg'
 description: A post to demonstrate how a blog post with figures and video looks on Hylia
 tags:
   - demo-content

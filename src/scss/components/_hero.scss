@@ -1,31 +1,22 @@
 .hero {
-  // background: linear-gradient(
-  //   180deg,
-  //   var(--color-theme-primary) 0%,
-  //   var(--color-theme-primary-shade) 100%
-  // );
-  color: var(--color-theme-primary);
+  color: var(--color-text-01);
   padding: var(--s3) 0;
-  display: flex;
+
   align-items: center;
-  background-color: var(--color-bg);
 
   &__summary {
     --flow-space: #{get-size(500)};
     font-size: get-size(600);
+    color: var(--color-text-02);
 
     a {
       color: currentColor;
-
-      &:hover {
-        text-decoration: none;
-      }
     }
   }
 
   &__heading {
     max-width: 40ch;
-    @include apply-utility('font', 'serif');
+    @include apply-utility('font', 'heading');
     font-size: get-size(900);
   }
 }

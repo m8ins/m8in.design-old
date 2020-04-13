@@ -1,5 +1,5 @@
 .intro {
-  color: var(--color-theme-primary);
+  color: var(--color-text-02);
   --magic-number: 0.09719; /* tan(11°)/2 */
   --content-width: 100vw;
   --skew-padding: calc(var(--content-width) * var(--magic-number));
@@ -19,7 +19,7 @@
 
   &__heading {
     max-width: 40ch;
-    @include apply-utility('font', 'serif');
+    @include apply-utility('font', 'heading');
     font-size: get-size(900);
 
     &--compact {
@@ -28,7 +28,7 @@
   }
 
   .intro--hero & {
-    @include apply-utility('font', 'serif');
+    @include apply-utility('font', 'heading');
     font-size: get-size(900);
   }
 }

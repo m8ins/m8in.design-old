@@ -24,4 +24,25 @@
       text-decoration: underline;
     }
   }
+
+  .post__info {
+    display: flex;
+    align-items: baseline;
+    & > * + * {
+      margin-left: 2em;
+    }
+  }
+
+  .post__description {
+    color: var(--color-text-02);
+  }
+
+  li + li {
+    margin-top: 2rem;
+  }
+
+  time {
+    color: var(--color-text-02);
+    flex-shrink: 0;
+  }
 }

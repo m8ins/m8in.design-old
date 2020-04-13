@@ -1,15 +1,20 @@
 {% if postListItems.length %}
   <section class="[ post-list ] [ pad-top-700 gap-bottom-900 ]">
     <div class="[ wrapper ] [ sf-flow ]">
-      <h2 class="[ post-list__heading ] [ text-700 md:text-800 ]">{{ postListHeading }}</h2>
-      <ol class="[ post-list__items ] [ auto-grid gap-s1 ] [ pad-top-300 ]" reversed>
+      {# <h2 class="[ post-list__heading ] [ text-700 md:text-800 ]">{{ postListHeading }}</h2> #}
+      <ol class="[ post-list__items ]  [ pad-top-300 ]" reversed>
         {% for item in postListItems %}
           {% if item.date.getTime() <= global.now %}
             <li>
-                <a href="{{ item.url }}" class="card" rel="bookmark">
-                  <h3 class="card__heading">{{ item.data.title }}</h3>
-                  <p class="card__description">{{ item.data.description }}</p>
-                </a>
+                  <div class="[ post__info ]">
+                  {# <a href="{{ item.url }}" rel="bookmark"> #}
+                    <h3><a href="{{ item.url }}" rel="bookmark">{{ item.data.title }} </a></h3>
+                  {# </a> #}
+                    {% if item.date %}
+                      <time datetime="{{ item.date | dateFilter }}" class="dt-published">{{ item.date | dateFilter }}</time>
+                    {% endif %}
+                  </div>
+                  <p class="[ text-500 ]">{{ item.data.description }}</p>
             </li>
           {% endif %}
         {% endfor %}
