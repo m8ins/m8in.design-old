@@ -1,3 +1,12 @@
+// Inter
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Inter'), url('/fonts/inter-variable.ttf') format('ttf');
+}
+
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);
