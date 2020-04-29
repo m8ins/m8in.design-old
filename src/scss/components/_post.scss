@@ -1,7 +1,10 @@
 .post {
+  &__intro {
+    position: relative;
+  }
+
   &__body {
     --flow-space: #{get-size(800)};
-    max-width: 60ch;
 
     /**
      * Generic HTML styles 
@@ -98,7 +101,7 @@
 
     code {
       font-size: 1.2em;
-      color: var(--color-text-02);
+      color: var(--color-accent-02-dark);
       font-weight: 600;
       margin-left: 0.01ch;
       margin-right: 0.01ch;
@@ -177,7 +180,7 @@
 
     pre > code {
       display: block;
-      background: var(--color-text-02);
+      background: var(--color-accent-02-dark);
       padding: get-size(700);
       font-size: get-size(500);
     }

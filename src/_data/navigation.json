@@ -1,8 +1,8 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
+      "text": "About me",
+      "url": "/pages/about-me",
       "external": false
     },
     {
