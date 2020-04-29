@@ -27,9 +27,11 @@ permalink: /tags/{{ tag }}/
 {% set postListItems = collections[tag] %}
 
 {% block content %}
+<div class="inner-wrapper">
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
+</div>
 {% endblock %}

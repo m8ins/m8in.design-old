@@ -3,29 +3,25 @@
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary = description %}
-{# <p class="[ intro__meta ] [ text-500 leading-tight ]">
-  {% if date %}
-    <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-  {% endif %}
-  <span>— {{ helpers.getReadingTime(content) }} minute read</span>
-</p> #}
 
 
 {% block content %}
   <main id="main-content" tabindex="-1">
+  <div class="inner-wrapper">
     <article class="[ post ] [ h-entry ]">
       {% include "partials/components/post-intro.njk" %}
-      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
+      <div class="[ post__body ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
         {{ content | safe }}
       </div>
       {% if site.enableThirdPartyComments %}
         <hr />
-        <aside class="[ post__body ] [ inner-wrapper ] [ pad-bottom-900 text-500 ]">
+        <aside class="[ post__body ] [ pad-bottom-900 text-500 ]">
           {% include "partials/global/third-party-comments.njk" %}
         </aside>
       {% endif %}
       
     </article>
+    </div>
   </main>
 {% endblock %}
 

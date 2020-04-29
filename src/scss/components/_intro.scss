@@ -1,8 +1,8 @@
 .intro {
   color: var(--color-text-02);
 
-  --split-pair-space: #{get-size(900)};
-  --split-pair-break: 40rem;
+  --split-pair-space: #{get-size(max)};
+  --split-pair-break: 43rem;
   --split-pair-align: center;
 
   &__summary {
@@ -32,8 +32,4 @@
     @include apply-utility('font', 'heading');
     font-size: get-size(900);
   }
-}
-
-.intro,
-.split-pair {
 }
