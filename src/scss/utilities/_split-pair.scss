@@ -14,25 +14,33 @@
     padding: calc(var(--split-pair-space) / 2) 0 0 calc(var(--split-pair-space) / 2);
   }
 
-  @media screen and (min-width: 40rem) {
-    .post__intro::after {
-      width: 1px;
-      right: 0;
-      top: calc(var(--split-pair-space) / 4);
-      height: 100%;
-      color: var(--color-primary);
-      background-color: var(--color-primary);
-    }
-  }
-
   .post__intro::after {
     content: '';
     display: block;
     width: 80%;
-    height: 1px;
+    height: 2px;
     position: absolute;
     top: 100%;
     right: 10%;
-    background-color: var(--color-primary);
+    background-color: var(--color-accent);
+  }
+
+  .post__intro {
+    padding-bottom: calc(var(--split-pair-space) / 2);
+  }
+
+  @media (min-width: 47.5rem) {
+    .post__intro::after {
+      width: 2px;
+      right: 0;
+      top: calc(var(--split-pair-space) / 4);
+      height: 100%;
+      background-color: var(--color-accent);
+    }
+
+    .post__intro {
+      padding-bottom: 0;
+      padding-right: get-size(900);
+    }
   }
 }
