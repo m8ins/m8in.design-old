@@ -14,8 +14,10 @@
 </head>
 <body>
   {% include "partials/global/site-head.njk" %}
+  <div class="wrapper">
   {% block content %}
   {% endblock content %}
+  </div>
   {% include "partials/global/site-foot.njk" %}
   {% block foot %}
   {% endblock %}
@@ -27,6 +29,6 @@
       });
     }
   </script>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async defer></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 </body>
 </html>

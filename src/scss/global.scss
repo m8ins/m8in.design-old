@@ -41,6 +41,11 @@ hr {
   margin: get-size(900) auto;
 }
 
+:focus {
+  outline: 1px solid var(--color-theme-accent-02);
+  outline-offset: 0.25rem;
+}
+
 /**
  * PROJECT IMPORTS
  */
@@ -53,6 +58,7 @@ hr {
 
 // Components
 @import 'components/button';
+@import 'components/form';
 @import 'components/heading-permalink';
 @import 'components/hero';
 @import 'components/home';
@@ -64,6 +70,7 @@ hr {
 @import 'components/site-head';
 @import 'components/site-foot';
 @import 'components/skip-link';
+@import 'components/split-pair';
 @import 'components/syntax-highlighting';
 @import 'components/tags';
 @import 'components/video-player';

@@ -1,6 +1,6 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const fs = require("fs");
+const fs = require('fs');
 
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -34,6 +34,19 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/admin/config.yml');
   config.addPassthroughCopy('src/admin/previews.js');
   config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
+  config.addPassthroughCopy('src/robots.txt');
+
+  // additional markdown-it plugins
+  let markdownIt = require("markdown-it");
+  let markdownItFootnote = require("markdown-it-footnote");
+  let options = {
+    html: true,
+    linkify: true
+  };
+
+  let markdownLib = markdownIt(options).use(markdownItFootnote);
+
+  config.setLibrary("md", markdownLib);
 
   const now = new Date();
 
@@ -61,7 +74,7 @@ module.exports = function(config) {
       ready: function(err, browserSync) {
         const content_404 = fs.readFileSync('dist/404.html');
 
-        browserSync.addMiddleware("*", (req, res) => {
+        browserSync.addMiddleware('*', (req, res) => {
           // Provides the 404 content without redirect.
           res.write(content_404);
           res.end();

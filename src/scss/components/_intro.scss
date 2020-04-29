@@ -1,8 +1,9 @@
 .intro {
   color: var(--color-text-02);
-  --magic-number: 0.09719; /* tan(11°)/2 */
-  --content-width: 100vw;
-  --skew-padding: calc(var(--content-width) * var(--magic-number));
+
+  --split-pair-space: #{get-size(900)};
+  --split-pair-break: 40rem;
+  --split-pair-align: center;
 
   &__summary {
     --flow-space: #{get-size(500)};
@@ -31,4 +32,8 @@
     @include apply-utility('font', 'heading');
     font-size: get-size(900);
   }
+}
+
+.intro,
+.split-pair {
 }

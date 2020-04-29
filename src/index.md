@@ -3,6 +3,7 @@ layout: home
 title: Hi✌️ I'm Martin
 postsHeading: Latest posts
 archiveButtonText: See all posts
+metaDesc: Personal website of Martin Schmitz
 socialImage: ''
 ---
 
