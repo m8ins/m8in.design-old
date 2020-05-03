@@ -18,7 +18,7 @@
     content: '';
     display: block;
     width: 80%;
-    height: 2px;
+    height: 4px;
     position: absolute;
     top: 100%;
     right: 10%;
@@ -31,7 +31,7 @@
 
   @media (min-width: 47.5rem) {
     .post__intro::after {
-      width: 2px;
+      width: 4px;
       right: 0;
       top: calc(var(--split-pair-space) / 4);
       height: 100%;
