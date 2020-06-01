@@ -54,6 +54,7 @@ a:not([class]) {
   text-decoration-thickness: 0.1em;
   transition: all 0.2s ease-in-out;
   padding: 0.1em;
+  font-weight: 600;
 
   &:hover {
     background-color: var(--color-accent);
