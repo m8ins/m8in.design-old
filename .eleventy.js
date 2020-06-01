@@ -41,7 +41,9 @@ module.exports = function(config) {
   let markdownItFootnote = require("markdown-it-footnote");
   let options = {
     html: true,
-    linkify: true
+    linkify: true,
+    typographer: true,
+    quotes: '„“‚‘'
   };
 
   let markdownLib = markdownIt(options).use(markdownItFootnote);
