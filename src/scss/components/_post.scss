@@ -137,6 +137,14 @@
       }
     }
 
+    ol.footnotes-list {
+      list-style: decimal;
+
+      li + li {
+        margin-top: get-size(300);
+      }
+    }
+
     figure,
     figure + *,
     pre > code,
@@ -168,6 +176,18 @@
     figure img {
       position: relative;
       z-index: 1;
+    }
+
+    figure img:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: calc(100% + 1rem);
+      background: transparent url(/src/images/bg-dots--accent-02.svg) repeat right bottom;
     }
 
     figcaption {

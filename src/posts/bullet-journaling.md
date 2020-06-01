@@ -5,12 +5,13 @@ author: Martin Schmitz
 socialImage: /images/2020-04/bullet_journal.jpg
 date: 2019-12-11
 tags:
-  - bullet
-  - journal
+  - bullet journal
   - productivity
 ---
 
 Ich mag Produktivitäts-Hacks sehr gerne: "Productivity" war eine der ersten Kategorien, die ich auf Medium regelmäßig gelesen habe. Die meisten dieser Artikel behandelten **Getting Things Done**, eine Organisations- und Produktivitätsmethode, in der es grob gesagt darum geht, große Aufgaben in kleine, durchführbare Aufgaben runterzubrechen. Die Idee ist, dass zum Beispiel „Wohnung schöner machen“ ein zu grobes und ungenaues Ziel ist. Wenn man dieses Ziel aber auf mehrere Unterziele runterbricht — Wandfarbe raussuchen, für Einrichtungsstil entscheiden, Budget planen, in Möbelhäusern gucken — wird die Aufgabe plötzlich machbar. Aus der nur schwer zu greifenden Idee einer schönen Wohnung sind viele kleine Schritte geworden, die man Stück für Stück abarbeiten kann.
+
+![Mein eigenes Bullet Journal](/images/2020/bullet_journal.jpg 'Mein eigenes Bullet Journal (wenn ich mir mal ein bisschen Mühe gebe, ordentlich zu schreiben...)')
 
 Aber abgesehen davon, dass das Buch zu GTD nicht wirklich gut zu lesen war, habe ich irgendwann gemerkt, dass ich immer mehr Zeit in die Organisation meiner Aufgaben gesteckt habe – und zwar so viel Zeit, dass ich trotz der besseren Organisation nicht mehr geschafft habe. GTD verlangt von einem, jede noch so kleine Aufgabe, die im Kopf rumschwirrt, Aufgaben rigoros zu kategorisieren, taggen, schätzen und umzusortieren. Im Buch werden Tags wie „niedriges Energielevel“ oder „hohes Energielevel“ vorgeschlagen, um zum Beispiel nach einem anstrengenden Tag noch Aufgaben zu finden, die man noch erledigen könnte: Selbstoptimierung _above all_.
 
@@ -42,7 +43,7 @@ Außerdem hat Social Media unerfüllbare Schönheitsideale an mein Journal geset
 
 Bei meinem zweiten Anlauf habe ich mich dann gar nicht mehr an solchen Bildern orientiert, sondern für mich selbst entschieden, was funktioniert und was nicht. Und siehe da: man kann sein Leben auch organisieren, ohne mehrere Stunden am Tag hübsche Bilder in sein Notizbuch zu zeichnen.
 
-![Image of a Bullet Journal](/images/2020-04/bullet_journal_im_internet.jpg 'Ein BuJo, wie man es so im Internet sieht. Quelle: Pexels.com')
+![Image of a Bullet Journal](/images/2020/bullet_journal_im_internet.jpg 'Ein BuJo, wie man es so im Internet sieht. Quelle: Pexels.com')
 
 ## Mein Fazit zum Bullet Journal
 
