@@ -10,8 +10,6 @@ title: Wie und warum ich 50.000 Tweets in einem Tag gesammelt habe
 description: 'Kurzer Erfahrungsbericht aus den Anfängen meiner Master-Arbeit'
 ---
 
-# Wie und warum ich 50.000 Tweets in einem Tag gesammelt habe
-
 Die letzten Klausuren sind bestanden, die letzten Seminare hinter mich gebracht und vor meinem Abschluss steht jetzt nur noch meine Masterarbeit. In den kommenden Monaten werde ich mich damit befassen, wie man Laien dabei unterstützen kann, Twitter-Diskussionen besser einordnen zu können. Dabei konzentriere ich mich zu Beginn zunächst einmal darauf, große Datenmengen in Grafiken darzustellen. Dadurch kann man dann etwa erkennen, ob negative Tweets von vielen verschiedenen Leuten kommen, oder ob ein paar “Superspreader” einfach nur schlechte Laune auf Twitter verbreiten wollen.
 
 Doch bevor ich damit anfangen kann, mir Gedanken über coole Darstellungsformen zu machen, brauche ich natürlich erst einmal: Daten, Daten und noch mehr Daten. Zum Glück bietet Twitter eine mächtige, wenn auch nicht gerade angenehm zu nutzende, API[^1] an, die mir das Sammeln deutlich erleichtert hat. Für den Zugriff auf die API habe ich Python und [Tweepy](https://github.com/tweepy/tweepy) benutzt.
