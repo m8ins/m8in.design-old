@@ -1,7 +1,10 @@
 const builtins = require('@erquhart/rollup-plugin-node-builtins');
-const commonjs = require('@rollup/plugin-commonjs');
-const nodeResolve = require('@rollup/plugin-node-resolve');
-const json = require('@rollup/plugin-json');
+// const commonjs = require('@rollup/plugin-commonjs');
+// const nodeResolve = require('@rollup/plugin-node-resolve');
+import commonjs from '@rollup/plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import json from '@rollup/plugin-json';
+// const json = require('@rollup/plugin-json');
 
 export default {
   input: 'src/admin/util',
@@ -12,7 +15,7 @@ export default {
   },
   plugins: [
     builtins(),
-    nodeResolve(),
+    resolve(),
     commonjs(),
     json(),
   ]
