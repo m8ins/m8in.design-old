@@ -7,7 +7,7 @@ tags:
   - twitter
   - coding
 title: Wie und warum ich 50.000 Tweets in einem Tag gesammelt habe
-summary: 'Kurzer Erfahrungsbericht aus den Anfängen meiner Master-Arbeit'
+description: 'Kurzer Erfahrungsbericht aus den Anfängen meiner Master-Arbeit'
 ---
 
 # Wie und warum ich 50.000 Tweets in einem Tag gesammelt habe
