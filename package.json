@@ -25,7 +25,7 @@
     "@rollup/plugin-json": "^4.0.3",
     "@rollup/plugin-node-resolve": "^9.0.0",
 
-    "bl": "^4.0.0",
+    "bl": "^4.0.3",
     "chokidar-cli": "^2.1.0",
     "cross-env": "^7.0.0",
     "make-dir-cli": "^2.0.0",
