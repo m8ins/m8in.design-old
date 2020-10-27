@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@erquhart/rollup-plugin-node-builtins": "^2.1.5",
-    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-commonjs": "^16.0.0",
 
     "@rollup/plugin-json": "^4.0.3",
     "@rollup/plugin-node-resolve": "^9.0.0",
