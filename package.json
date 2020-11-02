@@ -15,7 +15,7 @@
     "markdown-it-footnote": "^3.0.2",
     "sass": "^1.27.1",
     "semver": "^7.3.2",
-    "slugify": "^1.4.5",
+    "slugify": "^1.4.6",
     "stalfos": "github:hankchizljaw/stalfos#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
   },
   "devDependencies": {
