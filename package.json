@@ -23,7 +23,7 @@
     "@rollup/plugin-commonjs": "^17.0.0",
 
     "@rollup/plugin-json": "^4.0.3",
-    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
 
     "bl": "^4.0.3",
     "chokidar-cli": "^2.1.0",
