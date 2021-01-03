@@ -3,6 +3,11 @@
     position: relative;
   }
 
+  &--with-sidebar {
+    flex-basis: 0;
+    flex-grow: 999;
+  }
+
   &__body {
     --flow-space: #{get-size(800)};
 
@@ -224,4 +229,14 @@
       padding: 0.4rem 0.6rem;
     }
   }
+
+  &__metadata {
+    flex-basis: 20rem;
+    flex-grow: 1;
+  }
+}
+
+.sidebar-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }

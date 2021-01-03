@@ -1,0 +1,19 @@
+<div class="[ intro__meta ] [ text-500 leading-tight ] [ sf-flow ]">
+    {% if author %}
+    <p>by {{ author }}</p>
+    {% endif %}
+    {% if date %}
+    <p><time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time></p>
+    {% endif %}
+    <p>About {{ helpers.getReadingTime(content) }} minutes to read</p>
+    {% if tags %}
+    
+    <ul class="tag-list">
+      {% for item in tags %}
+        <li class="tag__item">
+          <a href="/tags/{{ item }}">#{{ item }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+</div>

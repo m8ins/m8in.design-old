@@ -4,23 +4,24 @@
 {% set introHeading = title %}
 {% set introSummary = description %}
 
-
 {% block content %}
   <main id="main-content" tabindex="-1">
-  <div class="inner-wrapper">
-    <article class="[ post ] [ h-entry ]">
-      {% include "partials/components/post-intro.njk" %}
-      <div class="[ post__body ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
-        {{ content | safe }}
-      </div>
-      {% if site.enableThirdPartyComments %}
-        <hr />
-        <aside class="[ post__body ] [ pad-bottom-900 text-500 ]">
-          {% include "partials/global/third-party-comments.njk" %}
-        </aside>
-      {% endif %}
-      
-    </article>
+    <div class="[ inner-wrapper ]">
+      <article class="[ post ] [ h-entry ] [ sidebar-wrapper ]">
+        {% include "partials/components/post-intro.njk" %}
+        <div class="[ post__body post--with-sidebar ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
+          {{ content | safe }}
+        </div>
+        {% if site.enableThirdPartyComments %}
+          <hr/>
+          <aside class="[ post__body ] [ pad-bottom-900 ]">
+            {% include "partials/global/third-party-comments.njk" %}
+          </aside>
+        {% endif %}
+        <aside class="post__metadata">
+        {% include "partials/components/metadata.njk" %}
+      </aside>
+      </article>
     </div>
   </main>
 {% endblock %}
